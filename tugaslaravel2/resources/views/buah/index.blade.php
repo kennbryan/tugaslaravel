@@ -9,6 +9,14 @@
 </head>
 <body>
     <h1>Daftar Buah</h1>
+
+    <div style="margin-bottom: 20px;">
+        <!-- Ganti form POST dengan link GET -->
+        <a href="{{ route('logout') }}">
+            <button type="button">Logout</button>
+        </a>
+    </div>
+
     <table>
         <thead>
             <tr>
